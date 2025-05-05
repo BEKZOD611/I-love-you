@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>Hello, World!</title>
+  <meta charset="UTF-8">
+  <title>I Love You</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding-top: 100px;
+    }
+    .heart {
+      font-size: 100px;
+      color: red;
+      animation: beat 1s infinite;
+    }
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    h1 {
+      font-size: 48px;
+      color: #ff1493;
+    }
+  </style>
 </head>
 <body>
-  <h1>
-    Hello, World!
-  </h1>
+  <div class="heart">❤️</div>
+  <h1>I Love You</h1>
 </body>
 </html>
